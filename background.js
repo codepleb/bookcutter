@@ -5,7 +5,7 @@ if (window == top) {
 var bookmarks = {}, url;
 
 bookmarks['G'] = 'https://www.google.com/'; // Google
-bookmarks['w'] = 'https://www.wikipedia.org/';  // Wikipedia
+bookmarks['W'] = 'https://www.wikipedia.org/';  // Wikipedia
 
 function doKeyPress(event){
     if(event.ctrlKey && event.altKey && !event.shiftKey) {
